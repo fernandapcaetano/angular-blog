@@ -1,0 +1,22 @@
+.container__small-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image__small-card img{
+    width: 200px;
+    height: 133.333px;
+    object-fit: cover;
+}
+.author__small-card p{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.details__small-card h3{
+    margin-top: 10px;
+}

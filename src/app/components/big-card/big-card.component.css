@@ -8,11 +8,17 @@
     align-items: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.big-card__photo img{
+    object-fit: cover;
+}
 .big-card__tittle h2{
     font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.big-card__tittle a{
+    text-decoration: none;
+    color: #fff;
 }
 .big-card__description p{
     color: grey;

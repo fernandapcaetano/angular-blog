@@ -1,0 +1,12 @@
+.container__menu-bar ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container__menu-bar ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
